@@ -1,0 +1,38 @@
+{
+    "site_to_compare": [
+        {
+            "site": "https://www.cdkeys.com",
+            "site_search": "https://www.cdkeys.com/#q=",
+            "target": ".ais-InfiniteHits-item",
+            "title": ".result-title",
+            "price": ".price",
+            "url": ".algolia-hit-link"
+        },
+        {
+           "site": "https://www.gog.com",
+           "site_search": "https://www.gog.com/en/games?query=",
+           "target": ".product-tile",
+           "title": ".product-tile__title",
+           "price": ".final-value",
+           "url": ".product-tile"
+ },
+       {
+          "site": "https://store.steampowered.com",
+          "site_search": "https://store.steampowered.com/search/?term=",
+          "target": ".search_result_row",
+          "title": ".title",
+          "price": ".discount_final_price",
+          "url": ".search_result_row"
+      },
+      {
+         "site": "https://www.humblebundle.com",
+         "site_search": "https://www.humblebundle.com/store/search?search=",
+         "target": ".entity-block-container",
+         "title": ".entity-meta",
+         "price": ".price-button",
+         "url": ".entity-link"
+ }
+
+
+    ]
+}
