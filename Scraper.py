@@ -108,6 +108,5 @@ async def main():
     for i in range(data):
         await brower_loader(Playwright, sites_to_load[i]["site_search"], sites_to_load[i]["target"], sites_to_load[i]["title"], sites_to_load[i]["price"], sites_to_load[i]["url"] )
 
-
-# Blocking call which returns when the hello_world() coroutine is done
+#Runs the MAin Functions
 asyncio.run(main())
